@@ -34,7 +34,7 @@ public class playerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && jumpCount >0)
         {
             jumpPressed = true;
-        }  
+        }
     }
 
     private void FixedUpdate() 

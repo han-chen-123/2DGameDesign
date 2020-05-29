@@ -11,5 +11,6 @@ public class EnterDialog : MonoBehaviour
         {
             enterDialog.SetActive(true);
         }
+        
     }
 }
