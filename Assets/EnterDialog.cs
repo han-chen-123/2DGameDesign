@@ -13,4 +13,12 @@ public class EnterDialog : MonoBehaviour
         }
         
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            enterDialog.SetActive(false);
+        }
+    }
 }
