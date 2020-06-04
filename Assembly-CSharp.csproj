@@ -70,6 +70,8 @@
     <Compile Include="Assets\resources\_Extended\Scripts\FallingBlockCollision.cs" />
     <Compile Include="Assets\resources\_Extended\Scripts\SwingAxe.cs" />
     <Compile Include="Assets\Scripts\levelSelection\leve1Select.cs" />
+    <Compile Include="Assets\Scripts\levelSelection\level2Select.cs" />
+    <Compile Include="Assets\Scripts\levelSelection\level3Select.cs" />
     <Compile Include="Assets\Scripts\levelSelection\nextLevel.cs" />
     <Compile Include="Assets\Scripts\lightControll.cs" />
     <Compile Include="Assets\Scripts\menu.cs" />
@@ -78,6 +80,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\resources\Nature_pixel_art_assets\pixel_snapping_README.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />

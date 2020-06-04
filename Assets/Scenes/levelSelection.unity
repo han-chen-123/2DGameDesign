@@ -757,16 +757,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 4333771236608244298, guid: fa033908cad0de447a768157d43b50d8,
-        type: 3}
-      propertyPath: groundCheck
-      value: 
-      objectReference: {fileID: 979166770}
-    - target: {fileID: 4333771236608244298, guid: fa033908cad0de447a768157d43b50d8,
-        type: 3}
-      propertyPath: speed
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 4333771236608244297, guid: fa033908cad0de447a768157d43b50d8,
         type: 3}
       propertyPath: m_Material
@@ -776,6 +766,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4333771236608244298, guid: fa033908cad0de447a768157d43b50d8,
+        type: 3}
+      propertyPath: groundCheck
+      value: 
+      objectReference: {fileID: 979166770}
+    - target: {fileID: 4333771236608244298, guid: fa033908cad0de447a768157d43b50d8,
+        type: 3}
+      propertyPath: speed
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa033908cad0de447a768157d43b50d8, type: 3}
@@ -827,7 +827,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 979166769}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2f2c6da07f8633d41be80c5a3bb00345, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2253,6 +2253,24 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &993575176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3958411554864178426, guid: 63e86ba993ba6554ba76ae4d8905ffa3,
+    type: 3}
+  m_PrefabInstance: {fileID: 766267267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &993575180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993575176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60729564549839448b672b4ac50e2e2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1004295330 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3958411554864178426, guid: 63e86ba993ba6554ba76ae4d8905ffa3,
@@ -2351,6 +2369,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1121229153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3958411554864178426, guid: 63e86ba993ba6554ba76ae4d8905ffa3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1321138148}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1121229157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121229153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95b3555ef300ea548817ffa3f966890b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1207624778
 GameObject:
   m_ObjectHideFlags: 0
