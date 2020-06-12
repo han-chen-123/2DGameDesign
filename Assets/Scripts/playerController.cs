@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class playerController : MonoBehaviour
 {
@@ -14,8 +16,10 @@ public class playerController : MonoBehaviour
     public float speed, jumpForce;
     private float horizontalMove;
 
-    public bool isGround, isJump, isDashing;
+    public bool isGround, isJump, isDashing, isTouchCoffee;
     public int coffee;
+    public int finalNum;
+    public Text CoffeeNum;
 
     bool jumpPressed;
     int jumpCount;
@@ -43,6 +47,14 @@ public class playerController : MonoBehaviour
         GroundMovement();
         Jump();
         SwitchAnim();
+
+        if (isTouchCoffee)
+        {
+            coffee++;
+            CoffeeNum.text = coffee.ToString();
+            isTouchCoffee = false;
+            finalNum = coffee;
+        }
     }
 
     void GroundMovement() 
@@ -102,8 +114,9 @@ public class playerController : MonoBehaviour
     {
         if (collision.tag == "coffee")
         {
+            isTouchCoffee = true;
             Destroy(collision.gameObject);
-            coffee += 1;
         }
     }
+
 }

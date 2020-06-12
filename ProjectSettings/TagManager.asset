@@ -7,6 +7,8 @@ TagManager:
   - coffee
   - ground
   - door
+  - guider
+  - saw
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - 
   - 
   - Ground
-  - 
+  - traps
   - 
   - 
   - 

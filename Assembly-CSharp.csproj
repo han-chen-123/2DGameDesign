@@ -63,20 +63,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\cameraControl.cs" />
-    <Compile Include="Assets\EnterDialog.cs" />
     <Compile Include="Assets\resources\_Extended\Scripts\AutoSpikes.cs" />
     <Compile Include="Assets\resources\_Extended\Scripts\FallingBlock.cs" />
     <Compile Include="Assets\resources\_Extended\Scripts\FallingBlockCollision.cs" />
     <Compile Include="Assets\resources\_Extended\Scripts\SwingAxe.cs" />
+    <Compile Include="Assets\Scripts\cameraControl.cs" />
+    <Compile Include="Assets\Scripts\EnterDialog.cs" />
+    <Compile Include="Assets\Scripts\GuideDialog.cs" />
+    <Compile Include="Assets\Scripts\levelSelection\backToLevelSelect.cs" />
     <Compile Include="Assets\Scripts\levelSelection\leve1Select.cs" />
     <Compile Include="Assets\Scripts\levelSelection\level2Select.cs" />
     <Compile Include="Assets\Scripts\levelSelection\level3Select.cs" />
     <Compile Include="Assets\Scripts\levelSelection\nextLevel.cs" />
     <Compile Include="Assets\Scripts\lightControll.cs" />
     <Compile Include="Assets\Scripts\menu.cs" />
+    <Compile Include="Assets\Scripts\pauseMenuControll.cs" />
     <Compile Include="Assets\Scripts\playerController.cs" />
     <Compile Include="Assets\Scripts\playerController2.cs" />
+    <Compile Include="Assets\Scripts\trapControll.cs" />
+    <Compile Include="Assets\Scripts\UItext.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

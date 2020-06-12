@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.LWRP;
+using UnityEngine.UI;
 
 public class lightControll : MonoBehaviour
 {
@@ -18,7 +19,6 @@ public class lightControll : MonoBehaviour
     {
         lightDis();
     }
-
     void lightDis()
     {
         timer -= Time.deltaTime;
